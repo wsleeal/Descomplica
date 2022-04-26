@@ -1,24 +1,21 @@
-Algoritmo "media"
+Algoritmo "semnome"
 
 Var
-// Seção de Declarações das variáveis
-i:inteiro
+
+indice:inteiro
+nomes:vetor[1..3] de caractere
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-para i de 1 ate 10 faca
-     escreval(i)
-fimpara
 
-enquanto i > 0 faca
-         i<-i-1
-         escreval(i)
-fimenquanto
+ //nomes[1] := "Thiago"
+ //nomes[2] := "William"
+ //nomes[3] := "Teste"
+
+ para indice de 1 ate 100 faca
+  escreval()
+ fimpara
 
 
-repita
-      escreval(i)
-      i<-i+1
-ate i>10
+
 
 Fimalgoritmo
