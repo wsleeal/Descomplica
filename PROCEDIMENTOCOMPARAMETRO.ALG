@@ -1,10 +1,10 @@
-Algoritmo "PRIMEIRA PERGUNTA"
-Procedimento OPERACAOALPHA
+Algoritmo "ProcedimentoComParametro"
 
+Procedimento soma(x,y:inteiro)
 var
 aux: inteiro
 inicio
-aux <- a - b
+aux <- x + y
 res <- aux
 fimprocedimento
 
@@ -15,8 +15,8 @@ inicio
 a <- 20
 b <- 6
 
-OPERACAOALPHA
+soma(a,b)
 
 escreval(res)
 
-fimaltoritmo
+fimalgoritmo
