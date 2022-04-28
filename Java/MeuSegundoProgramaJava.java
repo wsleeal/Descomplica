@@ -1,5 +1,5 @@
 
-class MeuPrimeiroProgramaJava {
+class MeuSegundoProgramaJava {
     public static void main(String entrada[]) {
         // Entrada de dados
         int n1 = Integer.parseInt(entrada[0]);
