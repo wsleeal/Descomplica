@@ -21,7 +21,7 @@ public class Programa03 {
         msg = msg + "Resto da divisao de " + n1 + " por " + n2 + ": " + mod + "\n";
         msg = msg + "Raiz quadrada de " + n1 + " = " + raiz1 + "\n";
         msg = msg + "Raiz quadrada de " + n2 + " = " + raiz2 + "\n";
-        System.out.println(msg);
+        JOptionPane.showMessageDialog(null, msg);
         System.exit(0);
     }
 }
